@@ -19,7 +19,7 @@ public class MagellanApp {
 
         System.out.println(ship1);
         System.out.println(ship2);
-        //sout  
+        //sout
 
     }
 
