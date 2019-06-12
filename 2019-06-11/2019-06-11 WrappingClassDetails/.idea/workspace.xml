@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c7130aa6-f8a9-4119-8a38-61f5597eeee5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../2019-06-11 Wrapping classes/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/application/WrappingClassesDetailsApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2019-06-11 Wrapping classes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2019-06-11 Wrapping classes/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2019-06-11 Wrapping classes/out/production/2019-06-11 Wrapping classes/application/WrappingClassApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../2019-06-11 Wrapping classes/out/production/2019-06-11 Wrapping classes/application/WrappingClassApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2019-06-11 Wrapping classes/src/application/WrappingClassApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2019-06-11 Wrapping classes/src/application/WrappingClassApp.java" afterDir="false" />
-    </list>
+    <list default="true" id="c7130aa6-f8a9-4119-8a38-61f5597eeee5" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -109,7 +103,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560254878817" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560255969318" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
