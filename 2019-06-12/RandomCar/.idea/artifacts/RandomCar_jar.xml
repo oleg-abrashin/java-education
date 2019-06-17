@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="RandomCar:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/RandomCar_jar</output-path>
+    <root id="archive" name="RandomCar.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/../../Jars/RandomCar/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="RandomCar" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../project1-random/out/artifacts/project1_random_jar/project1-random.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

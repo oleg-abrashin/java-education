@@ -2,7 +2,10 @@ package car;
 
 import randomlib.RandomLib;
 
-public class Car {
+import java.util.Objects;
+
+public class Car implements Comparable<Car>{
+
 
     private static final String[] CAR_MODELS = {"Duster","Logan","Sandero","Kaptur","Master","Dokker" };
     private static final int MIN_YEAR = 1980;
@@ -88,4 +91,38 @@ public class Car {
     }
 
 
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Car)) return false;
+        Car car = (Car) o;
+        return getYear() == car.getYear() &&
+                Double.compare(car.getEngine(), getEngine()) == 0 &&
+                isAc() == car.isAc() &&
+                getModel().equals(car.getModel());
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(getModel(), getYear(), getEngine(), isAc());
+    }
+
+
+    @Override
+    public int compareTo(Car other) {
+        int modelComparision = model.compareTo(other.model);
+        return modelComparision != 0 ? modelComparision : (year - other.year);
+    }
+
+    public static Car[] getRandomGarageArray(int n){
+        if(n < 0) n = 0;
+        Car[] result = new Car[n];
+
+        for (int i = 0; i < n; i++) {
+            result[i] = randomCar();
+        }
+
+        return result;
+    }
 }

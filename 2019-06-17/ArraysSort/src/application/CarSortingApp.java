@@ -15,11 +15,13 @@ public class CarSortingApp {
 
     public static void main(String[] args) {
 
-        Car[] garage = new Car[NUM_CARS];
+//        Car[] garage = new Car[NUM_CARS];
 
-        for (int i = 0; i < garage.length; i++) {
-            garage[i] = Car.randomCar();
-        }
+//        for (int i = 0; i < garage.length; i++) {
+//            garage[i] = Car.randomCar();
+//        }
+
+        Car[] garage = Car.getRandomGarageArray(NUM_CARS);
 
         for (int i = 0; i < garage.length; i++) {
             System.out.println(garage[i]);
@@ -40,10 +42,12 @@ public class CarSortingApp {
 //                .thenComparing(yearComparator)
 //                .thenComparing(engineComparator));
 
-        Arrays.sort(garage, acComparator.reversed()
-                .thenComparing(modelComparator)
-                .thenComparing(yearComparator)
-                .thenComparing(engineComparator));
+//        Arrays.sort(garage, acComparator.reversed()
+//                .thenComparing(modelComparator)
+//                .thenComparing(yearComparator)
+//                .thenComparing(engineComparator));
+
+        Arrays.sort(garage);
 
 
         for (int i = 0; i < garage.length; i++) {
