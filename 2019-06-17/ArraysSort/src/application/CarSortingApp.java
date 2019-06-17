@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 import car.Car;
 import comparators.ModelCarComparator;
+import comparators.YearCarComparator;
 
 public class CarSortingApp {
 
@@ -23,7 +24,7 @@ public class CarSortingApp {
 
         System.out.println("********************************");
 
-        Arrays.sort(garage, new ModelCarComparator());
+        Arrays.sort(garage, new YearCarComparator());
 
         for (int i = 0; i < garage.length; i++) {
             System.out.println(garage[i]);
