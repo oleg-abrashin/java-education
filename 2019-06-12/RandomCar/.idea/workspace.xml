@@ -7,13 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54042f01-ca2b-469e-93f4-02225c25f377" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../JarTestingApp/src/application/JarTestApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/application/RandomCarApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/car/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project1-random/.idea/artifacts/project1_random_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project1-random/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project1-random/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project1-random/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2019-06-17/ArraysSort/src/application/CarSortingApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2019-06-17/Arrays1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../2019-06-17/Arrays1/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -181,17 +176,17 @@
       <workItem from="1560331507310" duration="3467000" />
       <workItem from="1560338310574" duration="21000" />
       <workItem from="1560338950828" duration="289000" />
+      <workItem from="1560758430404" duration="12000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4937000" />
+    <option name="totallyTimeSpent" value="4949000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26172706" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26439232" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
