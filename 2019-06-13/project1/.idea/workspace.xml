@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dc9ce33e-695d-4fcd-8ec6-22afdb59eaf5" name="Default Changelist" comment="" />
+    <list default="true" id="c9275d51-bba8-4cd7-8e28-8a50c9167b4c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/application/Project1App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/Foo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2019-06-12/Agriculture/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../2019-06-12/Agriculture/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,26 +24,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/application/AgricultureApp.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/application/Project1App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="6" column="17" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="17" />
+            <state relative-caret-position="54">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/model/Kolkhoz.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/Foo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-              <folding>
-                <element signature="e#103#104#0" expanded="true" />
-                <element signature="e#146#147#0" expanded="true" />
-                <element signature="e#177#178#0" expanded="true" />
-                <element signature="e#207#208#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="162">
+              <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -60,8 +58,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/application/AgricultureApp.java" />
-        <option value="$PROJECT_DIR$/src/model/Kolkhoz.java" />
+        <option value="$PROJECT_DIR$/src/application/Project1App.java" />
+        <option value="$PROJECT_DIR$/src/model/Foo.java" />
       </list>
     </option>
   </component>
@@ -79,30 +77,36 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Agriculture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Agriculture" type="462c0819:PsiDirectoryNode" />
+              <item name="project1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Agriculture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Agriculture" type="462c0819:PsiDirectoryNode" />
+              <item name="project1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560407877688" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560409721151" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -116,10 +120,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AgricultureApp">
-    <configuration name="AgricultureApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="application.AgricultureApp" />
-      <module name="Agriculture" />
+  <component name="RunManager" selected="Application.Project1App">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="project1" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Project1App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="application.Project1App" />
+      <module name="project1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="application.*" />
@@ -130,23 +144,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Agriculture" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.AgricultureApp" />
+      <item itemvalue="Application.Project1App" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AgricultureApp" />
+        <item itemvalue="Application.Project1App" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -156,21 +160,20 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="dc9ce33e-695d-4fcd-8ec6-22afdb59eaf5" name="Default Changelist" comment="" />
-      <created>1560339792687</created>
+      <changelist id="c9275d51-bba8-4cd7-8e28-8a50c9167b4c" name="Default Changelist" comment="" />
+      <created>1560408066321</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1560339792687</updated>
-      <workItem from="1560339794240" duration="1573000" />
+      <updated>1560408066321</updated>
+      <workItem from="1560408068427" duration="1423000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1573000" />
+    <option name="totallyTimeSpent" value="1423000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -178,14 +181,14 @@
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Learn" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
@@ -215,23 +218,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/AgricultureApp.java">
+    <entry file="file://$PROJECT_DIR$/src/model/Foo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="17" />
+          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/Kolkhoz.java">
+    <entry file="file://$PROJECT_DIR$/src/application/Project1App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding>
-            <element signature="e#103#104#0" expanded="true" />
-            <element signature="e#146#147#0" expanded="true" />
-            <element signature="e#177#178#0" expanded="true" />
-            <element signature="e#207#208#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="54">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
