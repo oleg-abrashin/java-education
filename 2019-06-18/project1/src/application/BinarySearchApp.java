@@ -1,8 +1,29 @@
 package application;
 
+import java.util.Arrays;
+import java.util.Random;
+
 public class BinarySearchApp {
 
+    private static final int NUM_NUM = 20;
+
+    static Random gen = new Random();
+
     public static void main(String[] args) {
+
+        int[] arr = new int[NUM_NUM];
+
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = gen.nextInt(20);
+            System.out.println("#####################################");
+            System.out.println(Arrays.toString(arr));
+            Arrays.sort(arr);
+            System.out.println(Arrays.toString(arr));
+            System.out.println(binarySearch(arr,10));
+            System.out.println(Arrays.binarySearch(arr,3));
+            System.out.println("#####################################");
+
+        }
 
     }
 
@@ -20,6 +41,7 @@ public class BinarySearchApp {
             int middle = (right + left) / 2;
             if(arr[middle] == value)return  middle;
             if(arr[middle] > value) right = middle;
+            else left = middle;
         }
 
         return 0;
