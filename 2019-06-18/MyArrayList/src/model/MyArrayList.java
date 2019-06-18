@@ -88,9 +88,69 @@ public class MyArrayList<T> implements MyList<T> {
         return indexOf(data) >= 0;
     }
 
+
     @Override
     public T remove(int index) {
-        return null;
+        if (index < 0 || index >= size) return null;
+        System.out.println("прошел через if (index < 0 || index >= size) ");
+        if (array.length != index) {
+            System.arraycopy(array, index + 1, array, index, array.length - index - 1);
+        }
+        size--;
+        return (T) array;
+    }
+
+    //my custom method#1
+    @Override
+    public T trim_first() {
+        System.arraycopy(array, 1, array, 0, size);
+        size--;
+        return (T) array;
+    }
+
+    //my custom method#2
+    @Override
+    public T trim_last() {
+        size--;
+        return (T) array;
+    }
+
+    //my custom method#3
+    @Override
+    public T mark_range_as_null(int left_border_of_range,int right_border_of_range) {
+        if (left_border_of_range < 0 || left_border_of_range >= size) return null;
+        if (right_border_of_range < 0 || right_border_of_range >= size) return null;
+        if (right_border_of_range < left_border_of_range) return null;
+
+        int range_length = (right_border_of_range - left_border_of_range)+1;
+        int temp_left = left_border_of_range;
+        int temp_right = size - 1 - right_border_of_range;
+
+        for (int i = 0; i < size; i++) {
+            if((i>=left_border_of_range)&&(i<=right_border_of_range)){
+                array[i]= null;
+            }
+        }
+        return (T) array;
+    }
+
+    //my custom method#4
+    @Override
+    public T input_value_in_range(int left_border_of_range,int right_border_of_range, String value) {
+        if (left_border_of_range < 0 || left_border_of_range >= size) return null;
+        if (right_border_of_range < 0 || right_border_of_range >= size) return null;
+        if (right_border_of_range < left_border_of_range) return null;
+
+        int range_length = (right_border_of_range - left_border_of_range)+1;
+        int temp_left = left_border_of_range;
+        int temp_right = size - 1 - right_border_of_range;
+
+        for (int i = 0; i < size; i++) {
+            if((i>=left_border_of_range)&&(i<=right_border_of_range)){
+                array[i]= value;
+            }
+        }
+        return (T) array;
     }
 
     @Override
