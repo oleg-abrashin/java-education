@@ -16,15 +16,23 @@ public class SublistApp {
         System.out.println("ali = "+ali);
 
         List<Integer> sub = ali.subList(2,7);
-
         //ArrayList<Integer> sub = new ArrayList<>();
 
 
         System.out.println("sub = "+sub);
 
-        sub.set(2, 777);
+        //sub.set(2, 777);
         System.out.println("ali = "+ali);
         System.out.println("sub = "+sub);
+
+        ArrayList<Integer> range = new ArrayList<>(sub);
+
+        System.out.println("range = "+range);
+        range.set(2,777);
+        System.out.println("ali = "+ali);
+        System.out.println("sub = "+sub);
+        System.out.println("range = "+range);
+
     }
 
 }

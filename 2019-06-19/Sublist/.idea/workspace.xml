@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37195053-fe08-47a2-9f7b-637d8704605a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/application/SublistApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../2019-06-18/MyArrayListJarTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../2019-06-18/MyArrayListJarTest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/SublistApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/SublistApp.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/application/SublistApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+            <state relative-caret-position="216">
+              <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,7 +89,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560931528467" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560931847547" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -148,12 +147,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1560930578718</updated>
-      <workItem from="1560930580406" duration="948000" />
+      <workItem from="1560930580406" duration="1266000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="948000" />
+    <option name="totallyTimeSpent" value="1266000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -204,8 +203,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/application/SublistApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        <state relative-caret-position="216">
+          <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
