@@ -7,16 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48b60787-dc97-44f2-af86-9792c68b1c96" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/MyArrayList_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyArrayListJarTest/src/application/MyArrayListJarTestApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyArrayList/application/MyArrayListApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyArrayList/application/MyArrayListApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyArrayList/model/MyArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyArrayList/model/MyArrayList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyArrayList/model/MyList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyArrayList/model/MyList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/MyArrayListApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/MyArrayListApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/MyArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/MyList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyArrayListJarTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyArrayListJarTest/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,28 +31,29 @@
         <entry file="file://$PROJECT_DIR$/src/model/MyList.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="486">
-              <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+              <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/model/MyArrayList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="136" column="24" lean-forward="true" selection-start-line="136" selection-start-column="24" selection-end-line="136" selection-end-column="24" />
+            <state relative-caret-position="372">
+              <caret line="126" column="41" lean-forward="true" selection-start-line="126" selection-start-column="41" selection-end-line="126" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#4300#4301#0" expanded="true" />
                 <element signature="e#4327#4328#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/application/MyArrayListApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1296">
+            <state relative-caret-position="561">
               <caret line="48" column="46" selection-start-line="48" selection-start-column="46" selection-end-line="48" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -117,7 +109,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -140,7 +132,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -212,6 +204,7 @@
       <updated>1560847901755</updated>
       <workItem from="1560847903134" duration="17562000" />
       <workItem from="1560886852218" duration="7513000" />
+      <workItem from="1560923921255" duration="265000" />
     </task>
     <task id="LOCAL-00001" summary="MyArrayList">
       <created>1560861075494</created>
@@ -224,13 +217,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25075000" />
+    <option name="totallyTimeSpent" value="25340000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25349087" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25725028" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -280,27 +273,28 @@
     <entry file="file://$PROJECT_DIR$/src/model/MyList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
-          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/MyArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="136" column="24" lean-forward="true" selection-start-line="136" selection-start-column="24" selection-end-line="136" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4327#4328#0" expanded="true" />
-          </folding>
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/application/MyArrayListApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1296">
+        <state relative-caret-position="561">
           <caret line="48" column="46" selection-start-line="48" selection-start-column="46" selection-end-line="48" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/MyArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="126" column="41" lean-forward="true" selection-start-line="126" selection-start-column="41" selection-end-line="126" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4300#4301#0" expanded="true" />
+            <element signature="e#4327#4328#0" expanded="true" />
           </folding>
         </state>
       </provider>
