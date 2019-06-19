@@ -89,15 +89,18 @@ public class MyArrayList<T> implements MyList<T> {
     }
 
 
+
+
+
+    //method from teacher
     @Override
     public T remove(int index) {
         if (index < 0 || index >= size) return null;
-        System.out.println("прошел через if (index < 0 || index >= size) ");
-        if (array.length != index) {
-            System.arraycopy(array, index + 1, array, index, array.length - index - 1);
-        }
+        T result = (T)array[index];
+        System.arraycopy(array, index + 1, array, index, size - 1 - index);
+        array[size-1] = null;
         size--;
-        return (T) array;
+        return result;
     }
 
     //my custom method#1
@@ -176,10 +179,18 @@ public class MyArrayList<T> implements MyList<T> {
     }
 
     @Override
+    public boolean remove_range(int indFrom, int indTo) {
+        System.arraycopy(array, indTo, array, indFrom, size - indTo);
+        Arrays.fill(array, size - (indTo-indFrom), size, null);
+        size-=indTo-indFrom;
+        return true;
+    }
+
+    @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < size; i++)sb.append("  "+array[i]+"  ");
-        return "["+sb.toString().substring(2)+"]";
+        return "["+sb.toString().trim()+"]";
     }
 
     @Override

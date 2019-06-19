@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb1cbb1f-50c7-4594-b233-78e6a2570948" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyArrayList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyArrayList/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyArrayList/out/artifacts/MyArrayList_jar/MyArrayList.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../MyArrayList/out/artifacts/MyArrayList_jar/MyArrayList.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyArrayList/out/production/MyArrayList/application/MyArrayListApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MyArrayList/out/production/MyArrayList/application/MyArrayListApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyArrayList/out/production/MyArrayList/model/MyArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MyArrayList/out/production/MyArrayList/model/MyArrayList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyArrayList/out/production/MyArrayList/model/MyList.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MyArrayList/out/production/MyArrayList/model/MyList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyArrayList/src/application/MyArrayListApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyArrayList/src/application/MyArrayListApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyArrayList/src/model/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyArrayList/src/model/MyArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyArrayList/src/model/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyArrayList/src/model/MyList.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -177,18 +184,17 @@
       <option name="presentableId" value="Default" />
       <updated>1560886756159</updated>
       <workItem from="1560886757551" duration="1459000" />
-      <workItem from="1560923541111" duration="640000" />
+      <workItem from="1560923541111" duration="1097000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2099000" />
+    <option name="totallyTimeSpent" value="2556000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25349087" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25349087" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -228,6 +234,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../MyArrayList/out/artifacts/MyArrayList_jar/MyArrayList.jar!/model/MyArrayList.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4872">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>

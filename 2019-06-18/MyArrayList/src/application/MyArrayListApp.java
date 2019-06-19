@@ -3,13 +3,13 @@ import model.MyArrayList;
 import java.util.Random;
 
 public class MyArrayListApp {
-    private static final int NUM_NUM = 3;
+    private static final int NUM_NUM = 5;
     static Random gen = new Random(12345);
     public static void main(String[] args) {
         MyArrayList<Integer> mali = new MyArrayList<>();
 
-        //for (int i = 0; i < NUM_NUM; i++)mali.add(gen.nextInt(3));
-        //System.out.println("mali = "+mali);
+        for (int i = 0; i < NUM_NUM; i++)mali.add(gen.nextInt(3));
+        System.out.println("mali = "+mali);
 
 //        System.out.println(mali);
 //        System.out.println(mali.get(5));
@@ -39,14 +39,13 @@ public class MyArrayListApp {
         //mali.trim_last();
         //System.out.println("mali = "+mali);
 
-
-        mali.remove(4);
+        System.out.println(mali.remove_range(8,10));
         System.out.println("mali = "+mali);
 
-        mali.mark_range_as_null(0,1);
-        System.out.println("mali = "+mali);
+        //mali.mark_range_as_null(0,1);
+        //System.out.println("mali = "+mali);
 
-        mali.input_value_in_range(0,1,"deleted");
-        System.out.println("mali = "+mali);
+        //mali.input_value_in_range(0,1,"deleted");
+        //System.out.println("mali = "+mali);
     }
 }

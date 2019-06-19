@@ -10,7 +10,9 @@ public interface MyList<T> {
 
     public T trim_first();
     public T trim_last();
+
     public T remove(int index);
+    public boolean remove_range(int indFrom, int indTo);
     public T mark_range_as_null(int left_border_of_range,int right_border_of_range);
     public T input_value_in_range(int left_border_of_range,int right_border_of_range, String value);
 
