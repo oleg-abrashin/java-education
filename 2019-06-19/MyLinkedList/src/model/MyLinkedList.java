@@ -43,19 +43,15 @@ public class MyLinkedList<T> implements MyList<T>{
         if(index == 0) addFirst(data);
         else if(index == size) add(data);
         else {
-            Node<T> node = new Node<T>(data);
-
+            Node<T> node = new Node<>(data);
             Node<T> target = getNodeByIndex(index);
-
             Node<T> prev = target.getPrev();
-
             node.setNext(target);
             node.setPrev(prev);
             prev.setNext(node);
             target.setPrev(node);
             size++;
         }
-
         return true;
     }
 
@@ -71,7 +67,6 @@ public class MyLinkedList<T> implements MyList<T>{
 
     @Override
     public int indexOf(T data) {
-        if(head == null)return -1;
         int counter = 0;
         Node<T> node = head;
         while(node != null){
@@ -79,7 +74,6 @@ public class MyLinkedList<T> implements MyList<T>{
             node = node.getNext();
             counter++;
         }
-
         return -1;
     }
 
@@ -112,7 +106,7 @@ public class MyLinkedList<T> implements MyList<T>{
 
     @Override
     public T removeFirst() {
-        if(head == null)return null;
+       if(head == null)return null;
        Node<T> removeElement = head;
        if(head.getNext() == null){
            head = null; tail = null;
@@ -142,10 +136,11 @@ public class MyLinkedList<T> implements MyList<T>{
         return (T) removeElement.getData();
     }
 
+    @Override
     public T removeByIndex(int index) {
         if (index < 0 || index > size-1) return null;
-        if (index == 0){removeFirst();return null;}
-        if (index == (size-1)){removeLast();return null;}
+        if (index == 0)return removeFirst();
+        if (index == (size-1))return removeLast();
         int counter = 0;
         Node<T> loopElement = head;
         Node<T> PrevElementBeforeRemoved = null;
@@ -169,20 +164,19 @@ public class MyLinkedList<T> implements MyList<T>{
     }
 
     @Override
-    public T remove(T data) {
+    public boolean remove(T data) {
         Node<T> loopElement = head;
         int counter = 0;
         while(loopElement != null) {
             if(loopElement.getData().equals(data)){
                 removeByIndex(counter);
+                return true;
             }
             counter++;
             loopElement = loopElement.getNext();
         }
-        return data;
+        return false;
     }
-
-
 
     @Override
     public void eliminateAll() {

@@ -1,7 +1,6 @@
 package model;
 
-public interface MyList<T> {
-
+public interface UDMyList<T> {
     void add(T data);
     void addFirst(T data);
     void addLast(T data);
@@ -23,5 +22,6 @@ public interface MyList<T> {
     void eliminateAll(); //уничтожить все
 
     int size();
+
 
 }
