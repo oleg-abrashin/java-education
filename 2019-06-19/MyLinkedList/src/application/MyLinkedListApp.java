@@ -11,22 +11,22 @@ public class MyLinkedListApp {
         mlli.add(3);
         //System.out.println(mlli);
 
-        mlli.add(11);
+        //mlli.add(11);
+//        //System.out.println(mlli);
+//
+//        mlli.addLast(-8);
+//        //System.out.println(mlli);
+//
+//        mlli.addFirst(4);
+//        //System.out.println(mlli);
+//
+//        mlli.addFirst(-2);
+//        //System.out.println(mlli);
+//
+//        mlli.addFirst(6);
         //System.out.println(mlli);
 
-        mlli.addLast(-8);
-        //System.out.println(mlli);
-
-        mlli.addFirst(4);
-        //System.out.println(mlli);
-
-        mlli.addFirst(-2);
-        //System.out.println(mlli);
-
-        mlli.addFirst(6);
-        //System.out.println(mlli);
-
-        mlli.addByIndex(3,111);
+        //mlli.addByIndex(1,111);
         System.out.println(mlli);
 
         //mlli.removeFirst();
@@ -38,9 +38,11 @@ public class MyLinkedListApp {
 
         //System.out.println(mlli.indexOf(-8));
 
-        mlli.removeByIndex(6);
+        //mlli.removeByIndex(6);
 
         //mlli.eliminateAll();
+
+        System.out.println(mlli.removeLast());
 
         System.out.println(mlli);
 

@@ -112,21 +112,27 @@ public class MyLinkedList<T> implements MyList<T>{
 
     @Override
     public T removeFirst() {
+        if(head == null)return null;
        Node<T> removeElement = head;
-       if(head.getNext() == null)head = null;
+       if(head.getNext() == null){
+           head = null; tail = null;
+       }
        else{
            head = head.getNext();
            head.setPrev(null);
            removeElement.setNext(null);
        }
        size--;
-       return (T) removeElement.getData();
+        System.out.println("head = "+head);
+        System.out.println("tail = "+tail);
+       return removeElement.getData();
     }
 
     @Override
     public T removeLast() {
+        if(tail == null)return null;
         Node<T> removeElement = tail;
-        if(tail.getPrev() == null)tail = null;
+        if(tail.getPrev() == null){head = null;tail = null;}
         else{
             tail=tail.getPrev();
             tail.setNext(null);
@@ -176,12 +182,17 @@ public class MyLinkedList<T> implements MyList<T>{
         return data;
     }
 
+
+
     @Override
     public void eliminateAll() {
+        long time_start = System.nanoTime();
         while(head != null) {
             removeFirst();
         }
         tail = null;
+        long time_finish = System.nanoTime();
+        System.out.println(time_finish-time_start);
     }
 
     @Override
