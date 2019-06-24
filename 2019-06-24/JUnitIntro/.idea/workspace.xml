@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6580ad5e-ba83-4d8a-8527-ea483a06a92c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/numbers/ICalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/numbers/SimpleCalc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/SimpleCalcTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUnitIntro.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JUnitIntro.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JUnitIntro/tests/SimpleCalcTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JUnitIntro/tests/SimpleCalcTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/numbers/SimpleCalc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/numbers/SimpleCalc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/SimpleCalcTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/SimpleCalcTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,8 +14,8 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CodeInsightWorkspaceSettings">
-    <option name="optimizeImportsOnTheFly" value="true" />
+  <component name="FavoritesManager">
+    <favorites_list name="JUnitIntro" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
@@ -41,25 +40,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/numbers/SimpleCalc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            <state relative-caret-position="220">
+              <caret line="50" column="39" selection-start-line="50" selection-start-column="39" selection-end-line="50" selection-end-column="39" />
               <folding>
-                <element signature="e#91#92#0" expanded="true" />
-                <element signature="e#114#115#0" expanded="true" />
-                <element signature="e#157#158#0" expanded="true" />
-                <element signature="e#196#197#0" expanded="true" />
-                <element signature="e#249#250#0" expanded="true" />
-                <element signature="e#287#288#0" expanded="true" />
-                <element signature="e#449#450#0" expanded="true" />
-                <element signature="e#488#489#0" expanded="true" />
+                <element signature="method#clone#0;class#SimpleCalc#0" />
+                <element signature="method#finalize#0;class#SimpleCalc#0" />
                 <element signature="e#643#644#0" expanded="true" />
                 <element signature="e#667#668#0" expanded="true" />
                 <element signature="e#732#733#0" expanded="true" />
                 <element signature="e#756#757#0" expanded="true" />
-                <element signature="e#813#814#0" expanded="true" />
-                <element signature="e#837#838#0" expanded="true" />
-                <element signature="e#900#901#0" expanded="true" />
-                <element signature="e#924#925#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -68,8 +57,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/tests/SimpleCalcTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+            <state relative-caret-position="301">
+              <caret line="47" column="30" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1068#1069#0" expanded="true" />
+                <element signature="e#1141#1142#0" expanded="true" />
+                <marker date="1561365452303" expanded="true" signature="596:650" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -84,6 +79,11 @@
         <option value="JUnit4 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>multiplyInt</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -129,6 +129,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="numbers" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JUnitIntro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JUnitIntro" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -144,11 +150,12 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561360867378" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561365862437" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
     <property name="create.test.in.the.same.root" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -170,18 +177,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="JUnitIntro" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimpleCalcTest.hashCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SimpleCalcTest.multiplyInt">
+    <configuration name="SimpleCalcTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnitIntro" />
       <extension name="coverage">
         <pattern>
@@ -191,22 +188,94 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.SimpleCalcTest" />
-      <option name="METHOD_NAME" value="hashCode" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleCalcTest.divideFloat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JUnitIntro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.SimpleCalcTest" />
+      <option name="METHOD_NAME" value="divideFloat" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleCalcTest.divideInt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JUnitIntro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.SimpleCalcTest" />
+      <option name="METHOD_NAME" value="divideInt" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleCalcTest.multiplyFloat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JUnitIntro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.SimpleCalcTest" />
+      <option name="METHOD_NAME" value="multiplyFloat" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleCalcTest.multiplyInt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JUnitIntro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.SimpleCalcTest" />
+      <option name="METHOD_NAME" value="multiplyInt" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.SimpleCalcTest.hashCode" />
+      <item itemvalue="JUnit.SimpleCalcTest.multiplyInt" />
+      <item itemvalue="JUnit.SimpleCalcTest.multiplyFloat" />
+      <item itemvalue="JUnit.SimpleCalcTest.divideFloat" />
+      <item itemvalue="JUnit.SimpleCalcTest.divideInt" />
+      <item itemvalue="JUnit.SimpleCalcTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.SimpleCalcTest.hashCode" />
+        <item itemvalue="JUnit.SimpleCalcTest.multiplyInt" />
+        <item itemvalue="JUnit.SimpleCalcTest" />
+        <item itemvalue="JUnit.SimpleCalcTest.divideInt" />
+        <item itemvalue="JUnit.SimpleCalcTest.divideFloat" />
+        <item itemvalue="JUnit.SimpleCalcTest.multiplyFloat" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_PROPERTIES,SHOW_INHERITED,SHOW_ANONYMOUS,SHOW_LAMBDA,SHOW_INTERFACES" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -218,12 +287,53 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561359097953</updated>
-      <workItem from="1561359100200" duration="1738000" />
+      <workItem from="1561359100200" duration="5809000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="SimpleCalcTest_divideFloat - 2019.06.24 at 11h 22m 46s.xml">
+      <configuration name="SimpleCalcTest.divideFloat" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleCalcTest_divideFloat - 2019.06.24 at 11h 27m 10s.xml">
+      <configuration name="SimpleCalcTest.divideFloat" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleCalcTest_divideFloat - 2019.06.24 at 11h 29m 38s.xml">
+      <configuration name="SimpleCalcTest.divideFloat" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleCalcTest_divideFloat - 2019.06.24 at 11h 30m 01s.xml">
+      <configuration name="SimpleCalcTest.divideFloat" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleCalcTest_divideFloat - 2019.06.24 at 11h 34m 38s.xml">
+      <configuration name="SimpleCalcTest.divideFloat" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleCalcTest_divideInt - 2019.06.24 at 11h 34m 45s.xml">
+      <configuration name="SimpleCalcTest.divideInt" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleCalcTest_divideFloat - 2019.06.24 at 11h 35m 48s.xml">
+      <configuration name="SimpleCalcTest.divideFloat" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleCalcTest_divideInt - 2019.06.24 at 11h 36m 00s.xml">
+      <configuration name="SimpleCalcTest.divideInt" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleCalcTest - 2019.06.24 at 11h 36m 06s.xml">
+      <configuration name="SimpleCalcTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleCalcTest - 2019.06.24 at 11h 37m 35s.xml">
+      <configuration name="SimpleCalcTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1738000" />
+    <option name="totallyTimeSpent" value="5809000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -233,23 +343,23 @@
       <window_info id="Image Layers" />
       <window_info id="Capture Tool" />
       <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Favorites" sideWeight="0.50114155" side_tool="true" weight="0.25945947" />
       <window_info id="Learn" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49885845" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" sideWeight="0.50114155" side_tool="true" weight="0.25945947" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32990867" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Version Control" weight="0.32990867" />
       <window_info anchor="bottom" id="Messages" weight="0.32930845" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32821077" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32990867" />
       <window_info anchor="right" id="Maven" />
       <window_info anchor="right" id="Palette" />
       <window_info anchor="right" id="Capture Analysis" />
@@ -272,13 +382,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/numbers/ICalculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/jre/lib/rt.jar!/java/lang/Object.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -286,35 +389,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/numbers/SimpleCalc.java">
+    <entry file="file://$PROJECT_DIR$/src/numbers/ICalculator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="56">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/numbers/SimpleCalc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="50" column="39" selection-start-line="50" selection-start-column="39" selection-end-line="50" selection-end-column="39" />
           <folding>
-            <element signature="e#91#92#0" expanded="true" />
-            <element signature="e#114#115#0" expanded="true" />
-            <element signature="e#157#158#0" expanded="true" />
-            <element signature="e#196#197#0" expanded="true" />
-            <element signature="e#249#250#0" expanded="true" />
-            <element signature="e#287#288#0" expanded="true" />
-            <element signature="e#449#450#0" expanded="true" />
-            <element signature="e#488#489#0" expanded="true" />
+            <element signature="method#clone#0;class#SimpleCalc#0" />
+            <element signature="method#finalize#0;class#SimpleCalc#0" />
             <element signature="e#643#644#0" expanded="true" />
             <element signature="e#667#668#0" expanded="true" />
             <element signature="e#732#733#0" expanded="true" />
             <element signature="e#756#757#0" expanded="true" />
-            <element signature="e#813#814#0" expanded="true" />
-            <element signature="e#837#838#0" expanded="true" />
-            <element signature="e#900#901#0" expanded="true" />
-            <element signature="e#924#925#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tests/SimpleCalcTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        <state relative-caret-position="301">
+          <caret line="47" column="30" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1068#1069#0" expanded="true" />
+            <element signature="e#1141#1142#0" expanded="true" />
+            <marker date="1561365452303" expanded="true" signature="596:650" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

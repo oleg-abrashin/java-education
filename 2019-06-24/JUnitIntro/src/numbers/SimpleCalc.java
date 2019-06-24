@@ -33,22 +33,24 @@ public class SimpleCalc implements ICalculator{
 
     @Override
     public int multiply(int op1, int op2) {
-        return 0;
+        return op1*op2;
     }
 
     @Override
     public float multiply(float op1, float op2) {
-        return 0;
+        return op1*op2;
     }
 
     @Override
     public int divide(int op1, int op2) {
-        return 0;
+        if(op2 == 0)return Integer.MAX_VALUE;
+        return op1/op2;
     }
 
     @Override
     public float divide(float op1, float op2) {
-        return 0;
+        if(op2 == 0)return Float.NaN;
+        return op1/op2;
     }
 
 }
