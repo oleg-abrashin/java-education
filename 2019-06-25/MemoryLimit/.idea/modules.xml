@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/2019-06-18 MyArrayList.iml" filepath="$PROJECT_DIR$/2019-06-18 MyArrayList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MemoryLimit.iml" filepath="$PROJECT_DIR$/MemoryLimit.iml" />
     </modules>
   </component>
 </project>

@@ -1,51 +1,58 @@
 package application;
+
 import model.MyArrayList;
+
+import java.util.Iterator;
 import java.util.Random;
 
 public class MyArrayListApp {
     private static final int NUM_NUM = 5;
     static Random gen = new Random(12345);
+
     public static void main(String[] args) {
-        MyArrayList<Integer> mali = new MyArrayList<>();
 
-        for (int i = 0; i < NUM_NUM; i++)mali.add(gen.nextInt(3));
-        System.out.println("mali = "+mali);
+        MyArrayList<Integer> mali = new MyArrayList<Integer>();
+        for (int i = 0; i < NUM_NUM; i++) {
+            mali.add(i);
+        }
 
 //        System.out.println(mali);
+//        mali.add(4);
+//        System.out.println(mali);
+//        System.out.println(mali);
+//        System.out.println(mali.size());
+//        mali.add(6);
+//        System.out.println(mali);
+//        System.out.println(mali.size());
 //        System.out.println(mali.get(5));
-//        System.out.println(mali.set(666,8));
+//        System.out.println(mali.set(666, 8));
 //        System.out.println(mali);
-        mali.add(111);
-        //System.out.println("mali = "+mali);
-        mali.add(222);
-        //System.out.println("mali = "+mali);
-        mali.add(333);
-        mali.add(444);
-        mali.add(555);
-        System.out.println("mali = "+mali);
-        //mali.add(222,8);
-        //mali.add(333,9);
-
+//        mali.add(888, 7);
+//        System.out.println(mali);
 //        System.out.println(mali.indexOf(888));
-//        System.out.println(mali.contains(6666));
-//        System.out.println(mali.array.length);
-//        mali.trim();
-//        System.out.println(mali.array.length);
+//        System.out.println(mali.contains(66));
 //        mali.shuffle();
+//        System.out.println(mali);
 
-        //mali.trim_first();
-        //System.out.println("mali = "+mali);
+//        mali.trim();
+//        mali.remove(7);
+//        mali.remove(6);
+//        mali.remove(5);
+//        mali.remove(0);
+//        mali.remove(3);
+//        mali.remove(2);
+//        mali.remove(1);
+//        mali.remove(0);
+//        mali.remove(0, 5);
 
-        //mali.trim_last();
-        //System.out.println("mali = "+mali);
+//        System.out.println(mali);
 
-        System.out.println(mali.remove_range(8,10));
-        System.out.println("mali = "+mali);
+        Iterator<Integer> iter = mali.iterator();
 
-        //mali.mark_range_as_null(0,1);
-        //System.out.println("mali = "+mali);
+        while (iter.hasNext()) {
+            System.out.println(iter.next());
+        }
 
-        //mali.input_value_in_range(0,1,"deleted");
-        //System.out.println("mali = "+mali);
+        // write your code here
     }
 }
