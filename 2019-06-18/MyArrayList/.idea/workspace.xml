@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="27366b06-b882-46dc-a1c1-fcb392765e69" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../../2019-06-25/CustomExceptions/src/application/CustomExceptionsApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../2019-06-25/CustomExceptions/src/dto/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../2019-06-25/ExceptionsBubblingApp/src/application/ExceptionsBubblingApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../2019-06-25/MemoryLimit/src/application/MemoryLimitApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyArrayList/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyArrayList/application/MyArrayListApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyArrayList/model/MyArrayList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyArrayList/model/MyList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/MyArrayListApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/MyArrayListApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/MyArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/MyList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../2019-06-24/JUnitIntro/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../2019-06-24/JUnitIntro/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="27366b06-b882-46dc-a1c1-fcb392765e69" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -170,7 +154,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561455943423" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561455985247" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="PostgreSQL" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
@@ -232,7 +216,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26195000" />
+    <option name="totallyTimeSpent" value="26466000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -247,7 +231,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25027442" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25027442" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
