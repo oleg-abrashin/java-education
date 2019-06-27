@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/2019-06-11/2019-06-11 Wrapping classes/2019-06-11 Wrapping classes.iml" filepath="$PROJECT_DIR$/2019-06-11/2019-06-11 Wrapping classes/2019-06-11 Wrapping classes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2019-06-11/2019-06-11 WrappingClassDetails/2019-06-11 WrappingClassDetails.iml" filepath="$PROJECT_DIR$/2019-06-11/2019-06-11 WrappingClassDetails/2019-06-11 WrappingClassDetails.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2019-06-12/Agriculture/Agriculture.iml" filepath="$PROJECT_DIR$/2019-06-12/Agriculture/Agriculture.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2019-06-17/Arrays1/Arrays1.iml" filepath="$PROJECT_DIR$/2019-06-17/Arrays1/Arrays1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2019-06-17/ArraysSort/ArraysSort.iml" filepath="$PROJECT_DIR$/2019-06-17/ArraysSort/ArraysSort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2019-06-25/BitwiseOperators/BitwiseOperators.iml" filepath="$PROJECT_DIR$/2019-06-25/BitwiseOperators/BitwiseOperators.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2019-06-16/CarPredicate/CarPredicate.iml" filepath="$PROJECT_DIR$/2019-06-16/CarPredicate/CarPredicate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2019-06-25/CustomExceptions/CustomExceptions.iml" filepath="$PROJECT_DIR$/2019-06-25/CustomExceptions/CustomExceptions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2019-06-25/ExceptionsBubblingApp/ExceptionsBubblingApp.iml" filepath="$PROJECT_DIR$/2019-06-25/ExceptionsBubblingApp/ExceptionsBubblingApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2019-06-13/ImmutablePerson/ImmutablePerson.iml" filepath="$PROJECT_DIR$/2019-06-13/ImmutablePerson/ImmutablePerson.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2019-06-23/Iterator/Iterator.iml" filepath="$PROJECT_DIR$/2019-06-23/Iterator/Iterator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2019-06-24/JUnitIntro/JUnitIntro.iml" filepath="$PROJECT_DIR$/2019-06-24/JUnitIntro/JUnitIntro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2019-06-12/JarQAApp/JarQAApp.iml" filepath="$PROJECT_DIR$/2019-06-12/JarQAApp/JarQAApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2019-06-23/ListIterator/ListIterator.iml" filepath="$PROJECT_DIR$/2019-06-23/ListIterator/ListIterator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2019-06-25/MaskingApp/MaskingApp.iml" filepath="$PROJECT_DIR$/2019-06-25/MaskingApp/MaskingApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2019-06-25/MemoryLimit/MemoryLimit.iml" filepath="$PROJECT_DIR$/2019-06-25/MemoryLimit/MemoryLimit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2019-06-18/MyArrayList/MyArrayList.iml" filepath="$PROJECT_DIR$/2019-06-18/MyArrayList/MyArrayList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2019-06-18/MyArrayListJarTest/MyArrayListJarTest.iml" filepath="$PROJECT_DIR$/2019-06-18/MyArrayListJarTest/MyArrayListJarTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2019-06-19/MyLinkedList/MyLinkedList.iml" filepath="$PROJECT_DIR$/2019-06-19/MyLinkedList/MyLinkedList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2019-06-20/MyStack/MyStack.iml" filepath="$PROJECT_DIR$/2019-06-20/MyStack/MyStack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2019-06-20/MyUDLinkedList/MyUDLinkedList.iml" filepath="$PROJECT_DIR$/2019-06-20/MyUDLinkedList/MyUDLinkedList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2019-06-16/PredicateAlgebra/PredicateAlgebra.iml" filepath="$PROJECT_DIR$/2019-06-16/PredicateAlgebra/PredicateAlgebra.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2019-06-11/Project_magellan_11_06_19/Project_magellan_11_06_19.iml" filepath="$PROJECT_DIR$/2019-06-11/Project_magellan_11_06_19/Project_magellan_11_06_19.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2019-06-12/RandomCar/RandomCar.iml" filepath="$PROJECT_DIR$/2019-06-12/RandomCar/RandomCar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2019-06-19/Sublist/Sublist.iml" filepath="$PROJECT_DIR$/2019-06-19/Sublist/Sublist.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2019-06-17/UnusualComparators/UnusualComparators.iml" filepath="$PROJECT_DIR$/2019-06-17/UnusualComparators/UnusualComparators.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2019-06-13/project1/project1.iml" filepath="$PROJECT_DIR$/2019-06-13/project1/project1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2019-06-12/project1-random/project1-random.iml" filepath="$PROJECT_DIR$/2019-06-12/project1-random/project1-random.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2019-06-18/project1/project11.iml" filepath="$PROJECT_DIR$/2019-06-18/project1/project11.iml" />
+    </modules>
+  </component>
+</project>

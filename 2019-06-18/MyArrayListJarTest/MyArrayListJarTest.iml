@@ -7,14 +7,15 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library" exported="">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../MyArrayList/out/artifacts/MyArrayList_jar/MyArrayList.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
+    <orderEntry type="library" name="MyLinkedList" level="project" />
+    <orderEntry type="library" name="MyArrayList" level="project" />
+    <orderEntry type="library" name="MyUDLinkedList" level="project" />
+    <orderEntry type="module" module-name="ImmutablePerson" />
+    <orderEntry type="module" module-name="MyUDLinkedList" />
+    <orderEntry type="module" module-name="Agriculture" />
+    <orderEntry type="module" module-name="MyArrayList" />
+    <orderEntry type="module" module-name="project1" />
+    <orderEntry type="module" module-name="MyLinkedList" />
+    <orderEntry type="module" module-name="MyStack" />
   </component>
 </module>

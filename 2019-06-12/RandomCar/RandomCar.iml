@@ -7,14 +7,8 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library" exported="">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../project1-random/out/artifacts/project1_random_jar/project1-random.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
+    <orderEntry type="library" name="project1-random" level="project" />
+    <orderEntry type="library" name="RandomCar" level="project" />
+    <orderEntry type="module" module-name="project1-random" />
   </component>
 </module>
