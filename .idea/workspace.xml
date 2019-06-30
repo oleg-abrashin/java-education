@@ -1,36 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="effc4b42-61ef-449a-a1c0-63ddd551bf8e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/2019-06-11/2019-06-11 Wrapping classes/2019-06-11 Wrapping classes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/2019-06-11/2019-06-11 Wrapping classes/2019-06-11 Wrapping classes.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019-06-11/2019-06-11 WrappingClassDetails/2019-06-11 WrappingClassDetails.iml" beforeDir="false" afterPath="$PROJECT_DIR$/2019-06-11/2019-06-11 WrappingClassDetails/2019-06-11 WrappingClassDetails.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019-06-11/Project_magellan_11_06_19/Project_magellan_11_06_19.iml" beforeDir="false" afterPath="$PROJECT_DIR$/2019-06-11/Project_magellan_11_06_19/Project_magellan_11_06_19.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019-06-12/Agriculture/Agriculture.iml" beforeDir="false" afterPath="$PROJECT_DIR$/2019-06-12/Agriculture/Agriculture.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019-06-12/JarQAApp/JarQAApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/2019-06-12/JarQAApp/JarQAApp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019-06-12/RandomCar/RandomCar.iml" beforeDir="false" afterPath="$PROJECT_DIR$/2019-06-12/RandomCar/RandomCar.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019-06-12/project1-random/project1-random.iml" beforeDir="false" afterPath="$PROJECT_DIR$/2019-06-12/project1-random/project1-random.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019-06-13/ImmutablePerson/ImmutablePerson.iml" beforeDir="false" afterPath="$PROJECT_DIR$/2019-06-13/ImmutablePerson/ImmutablePerson.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019-06-13/project1/project1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/2019-06-13/project1/project1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019-06-16/CarPredicate/CarPredicate.iml" beforeDir="false" afterPath="$PROJECT_DIR$/2019-06-16/CarPredicate/CarPredicate.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019-06-16/PredicateAlgebra/PredicateAlgebra.iml" beforeDir="false" afterPath="$PROJECT_DIR$/2019-06-16/PredicateAlgebra/PredicateAlgebra.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019-06-17/Arrays1/Arrays1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/2019-06-17/Arrays1/Arrays1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019-06-17/ArraysSort/ArraysSort.iml" beforeDir="false" afterPath="$PROJECT_DIR$/2019-06-17/ArraysSort/ArraysSort.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019-06-17/UnusualComparators/UnusualComparators.iml" beforeDir="false" afterPath="$PROJECT_DIR$/2019-06-17/UnusualComparators/UnusualComparators.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019-06-18/MyArrayList/MyArrayList.iml" beforeDir="false" afterPath="$PROJECT_DIR$/2019-06-18/MyArrayList/MyArrayList.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019-06-18/MyArrayListJarTest/MyArrayListJarTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/2019-06-18/MyArrayListJarTest/MyArrayListJarTest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019-06-19/MyLinkedList/MyLinkedList.iml" beforeDir="false" afterPath="$PROJECT_DIR$/2019-06-19/MyLinkedList/MyLinkedList.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019-06-19/Sublist/Sublist.iml" beforeDir="false" afterPath="$PROJECT_DIR$/2019-06-19/Sublist/Sublist.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019-06-20/MyStack/MyStack.iml" beforeDir="false" afterPath="$PROJECT_DIR$/2019-06-20/MyStack/MyStack.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019-06-20/MyUDLinkedList/MyUDLinkedList.iml" beforeDir="false" afterPath="$PROJECT_DIR$/2019-06-20/MyUDLinkedList/MyUDLinkedList.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019-06-23/Iterator/Iterator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/2019-06-23/Iterator/Iterator.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019-06-23/ListIterator/ListIterator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/2019-06-23/ListIterator/ListIterator.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019-06-24/JUnitIntro/JUnitIntro.iml" beforeDir="false" afterPath="$PROJECT_DIR$/2019-06-24/JUnitIntro/JUnitIntro.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019-06-25/BitwiseOperators/BitwiseOperators.iml" beforeDir="false" afterPath="$PROJECT_DIR$/2019-06-25/BitwiseOperators/BitwiseOperators.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019-06-25/CustomExceptions/CustomExceptions.iml" beforeDir="false" afterPath="$PROJECT_DIR$/2019-06-25/CustomExceptions/CustomExceptions.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019-06-25/ExceptionsBubblingApp/ExceptionsBubblingApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/2019-06-25/ExceptionsBubblingApp/ExceptionsBubblingApp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019-06-25/MaskingApp/MaskingApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/2019-06-25/MaskingApp/MaskingApp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019-06-25/MemoryLimit/MemoryLimit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/2019-06-25/MemoryLimit/MemoryLimit.iml" afterDir="false" />
-    </list>
+    <list default="true" id="effc4b42-61ef-449a-a1c0-63ddd551bf8e" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,13 +30,10 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
