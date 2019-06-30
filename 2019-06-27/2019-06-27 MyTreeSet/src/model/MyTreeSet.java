@@ -11,6 +11,7 @@ public class MyTreeSet<T> implements ITreeSet<T>, Iterable<T> {
     private Node<T> root;
     private int size;
     private Comparator<T> comparator;
+    private boolean  balanced = true;
 
     public MyTreeSet(Comparator<T> comparator) {
         this.comparator = comparator;
@@ -46,7 +47,8 @@ public class MyTreeSet<T> implements ITreeSet<T>, Iterable<T> {
         if (compareResult > 0) current.setLeft(node);
         else current.setRight(node);
         size++;
-        return false;
+
+        return true;
     }
 
     @Override
@@ -247,7 +249,9 @@ public class MyTreeSet<T> implements ITreeSet<T>, Iterable<T> {
         for(T t:this) alt.add(t);
         root = null;
         size = 0;
+        unbalanced();
         putSubArray(alt,0,alt.size()-1);
+        balanced();
     }
 
 
@@ -261,6 +265,14 @@ public class MyTreeSet<T> implements ITreeSet<T>, Iterable<T> {
             putSubArray(array, min, middle - 1);
             putSubArray(array, middle + 1, max);
         }
+    }
+
+    public void balanced(){
+        balanced = true;
+    }
+
+    public void unbalanced(){
+        balanced = false;
     }
 
 
