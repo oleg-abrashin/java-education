@@ -8,6 +8,8 @@ import java.util.Iterator;
 
 public class MyTreeSet<T> implements ITreeSet<T>, Iterable<T> {
 
+    private static final int MIN_BALANCE = 1000;
+    private static final double BALANCE_COEFF = 0.2;
     private Node<T> root;
     private int size;
     private Comparator<T> comparator;
@@ -23,16 +25,28 @@ public class MyTreeSet<T> implements ITreeSet<T>, Iterable<T> {
 
     @Override
     public boolean add(T data) {
+
+        int level = 1;
+
         if (root == null) {
             Node<T> node = new Node<>(data);
             root = node;
             size++;
+
+            if(needBalance(level)){
+                System.out.println(size);
+                granBalance();
+            }
+
+
             return false;
         }
+
         Node<T> current = root;
         int compareResult;
         while (true) {
             compareResult = comparator.compare(current.getData(), data);
+            level++;
             if (compareResult == 0) return false;
             if (compareResult > 0) {
                 if (current.getLeft() == null) break;
@@ -41,13 +55,16 @@ public class MyTreeSet<T> implements ITreeSet<T>, Iterable<T> {
                 if (current.getRight() == null) break;
                 current = current.getRight();
             }
+            level++;
         }
+
+        System.out.println("data: "+data+"; level: "+level);
+
         Node<T> node = new Node<>(data);
         node.setParent(current);
         if (compareResult > 0) current.setLeft(node);
         else current.setRight(node);
         size++;
-
         return true;
     }
 
@@ -273,6 +290,19 @@ public class MyTreeSet<T> implements ITreeSet<T>, Iterable<T> {
 
     public void unbalanced(){
         balanced = false;
+    }
+
+    private double log2(int num){
+        int i = 0;
+        for (; (1 << i) < num; i++) {}
+        return (double)i;
+    }
+
+    private boolean needBalance(int level){
+        return balanced &&
+                (size > MIN_BALANCE) &&
+                ((1.+ BALANCE_COEFF)*log2(size) < level);
+
     }
 
 

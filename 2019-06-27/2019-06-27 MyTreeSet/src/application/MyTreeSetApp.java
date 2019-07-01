@@ -1,14 +1,13 @@
 package application;
 
 import model.MyTreeSet;
-
 import java.util.Comparator;
 import java.util.Iterator;
 import java.util.Random;
 
 public class MyTreeSetApp {
 
-    private static final int NUM_NUM = 11;
+    private static final int NUM_NUM = 1000;
     static Random gen = new Random();
 
     public static void main(String[] args) {
@@ -16,10 +15,10 @@ public class MyTreeSetApp {
         MyTreeSet<Integer> mtsi = new MyTreeSet<Integer>(Comparator.naturalOrder());
 
         for (int i = 0; i < NUM_NUM; i++) {
-            mtsi.add(i);
+            mtsi.add(gen.nextInt());
         }
 
-        mtsi.add(25);
+//        mtsi.add(25);
 //        mtsi.add(10);
 //        mtsi.add(31);
 //        mtsi.add(8);
@@ -44,15 +43,15 @@ public class MyTreeSetApp {
 //
 //        mtsi.remove(36);
 //
-        mtsi.remove(25);
-        Iterator<Integer> iterator = mtsi.iterator();
-
-        int counter = 0;
-        while (iterator.hasNext()) {
-            counter++;
-            System.out.println(iterator.next());
-        }
-        System.out.println("Left: " + counter);
+        //mtsi.remove(25);
+//        Iterator<Integer> iterator = mtsi.iterator();
+//
+//        int counter = 0;
+//        while (iterator.hasNext()) {
+//            counter++;
+//            System.out.println(iterator.next());
+//        }
+//        System.out.println("Left: " + counter);
 
 //        Iterator<Integer> rangeIterator = mtsi.rangeIterator(5, 15);
 //
@@ -68,7 +67,7 @@ public class MyTreeSetApp {
 //            System.out.println(rangeIterator.next());
 //        }
 
-        mtsi.remove(25);
+        //mtsi.remove(25);
 
     }
 }
