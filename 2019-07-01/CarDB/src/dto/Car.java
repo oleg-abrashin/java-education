@@ -81,7 +81,7 @@ public class Car implements Comparable<Car>{
     @Override
     public String toString() {
         return "Car{" +
-                "id='" + id + '\'' +
+                "#" + id + "," +
                 "model='" + model + '\'' +
                 ", year=" + year +
                 ", engine=" + String.format("%.1f",engine) +
@@ -98,6 +98,8 @@ public class Car implements Comparable<Car>{
         int randomYear = RandomLib.nextIntRange(MIN_YEAR, MAX_YEAR);
 
         double randomEngine = RandomLib.nextDoubleRange(MIN_ENGINE,MAX_ENGINE);
+
+        randomEngine = ((int)(randomEngine*10.))/10.;
 
         boolean randomAC = randomYear < MIN_AC_YEAR ?
 

@@ -8,7 +8,7 @@ public interface IGarage {
 
     boolean add(Car car);
     boolean contains(Car car);
-    boolean remove(int id);
+    Car remove(int id);
     boolean remove(Car car);
 
     Car getById(int id);
@@ -16,10 +16,9 @@ public interface IGarage {
     Iterable<Car> allCarsByModel(String model);
     Iterable<Car> allCarsByYearRange(int minYear, int maxYear);
     Iterable<Car> allCarsByEngineRange(double minEngine, double maxEngine);
-    Iterable<Car> allCarsByAC(boolean ac);
+    Iterable<Car> allCarsByAC(boolean isAC);
 
     Iterable<Car> allCarsSortedByModel();
     Iterable<Car> allCarsSortedByYear();
-    Iterable<Car> allCarsSortedByEngine();
-
+    Iterable<Car> allCarsSortedByEngine(int minYear, int maxYear);
 }
