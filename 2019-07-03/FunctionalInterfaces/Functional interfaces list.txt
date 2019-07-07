@@ -1,0 +1,58 @@
+
+
+UnaryOperator<T>	Represents an operation on a single operand that produces a result 
+			of the same type as its operand.
+IntUnaryOperator 	Represents an operation on a single int-valued operand that produces an int-valued result.
+LongUnaryOperator	Represents an operation on a single long-valued operand that produces a long-valued result.
+DoubleUnaryOperator	Represents an operation on a single double-valued operand that produces a double-valued result.
+
+BinaryOperator<T> 	Represents an operation upon two operands of the same type, producing a result 
+			of the same type as the operands.
+IntBinaryOperator	Represents an operation upon two int-valued operands and producing an int-valued result.
+LongBinaryOperator 	Represents an operation upon two long-valued operands and producing a long-valued result.
+DoubleBinaryOperator 	Represents an operation upon two double-valued operands and producing a double-valued result.
+
+Function<T,R>		Represents a function that accepts one argument and produces a result.
+
+IntFunction<R>		Represents a function that accepts an int-valued argument and produces a result.
+ToIntFunction<T>	Represents a function that produces an int-valued result.
+IntToDoubleFunction 	Represents a function that accepts an int-valued argument and produces a double-valued result.
+IntToLongFunction 	Represents a function that accepts an int-valued argument and produces a long-valued result.
+
+LongFunction<R>		Represents a function that accepts a long-valued argument and produces a result.
+ToLongFunction<T>	Represents a function that produces a long-valued result.
+LongToDoubleFunction	Represents a function that accepts a long-valued argument and produces a double-valued result.
+LongToIntFunction	Represents a function that accepts a long-valued argument and produces an int-valued result.
+
+DoubleFunction<R> 	Represents a function that accepts a double-valued argument and produces a result.
+ToDoubleFunction<T>	Represents a function that produces a double-valued result.
+DoubleToIntFunction 	Represents a function that accepts a double-valued argument and produces an int-valued result.
+DoubleToLongFunction	Represents a function that accepts a double-valued argument and produces a long-valued result.
+
+BiFunction<T,U,R> 	Represents a function that accepts two arguments and produces a result.
+ToDoubleBiFunction<T,U>	Represents a function that accepts two arguments and produces a double-valued result.
+ToIntBiFunction<T,U>	Represents a function that accepts two arguments and produces an int-valued result.
+ToLongBiFunction<T,U>	Represents a function that accepts two arguments and produces a long-valued result.
+
+BiPredicate<T,U> 	Represents a predicate (boolean-valued function) of two arguments.
+Predicate<T>		Represents a predicate (boolean-valued function) of one argument.
+IntPredicate		Represents a predicate (boolean-valued function) of one int-valued argument.
+LongPredicate		Represents a predicate (boolean-valued function) of one long-valued argument.
+DoublePredicate		Represents a predicate (boolean-valued function) of one double-valued argument.
+
+Consumer<T> 		Represents an operation that accepts a single input argument and returns no result.
+IntConsumer		Represents an operation that accepts a single int-valued argument and returns no result.
+LongConsumer		Represents an operation that accepts a single long-valued argument and returns no result.
+DoubleConsumer		Represents an operation that accepts a single double-valued argument and returns no result.
+
+BiConsumer<T,U>		Represents an operation that accepts two input arguments and returns no result.
+ObjIntConsumer<T>	Represents an operation that accepts an object-valued and a int-valued argument, and returns no result.
+ObjLongConsumer<T>	Represents an operation that accepts an object-valued and a long-valued argument, and returns no result.
+ObjDoubleConsumer<T>	Represents an operation that accepts an object-valued and a double-valued argument, and returns no result.
+
+Supplier<T>		Represents a supplier of results.
+IntSupplier		Represents a supplier of int-valued results.
+LongSupplier		Represents a supplier of long-valued results.
+DoubleSupplier		Represents a supplier of double-valued results.
+BooleanSupplier		Represents a supplier of boolean-valued results.
+

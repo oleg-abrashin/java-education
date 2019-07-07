@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f93c4625-a98e-4613-98ac-a6e55cfbb44f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/application/CarDBApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Garage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dto/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dto/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/IGarage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/IGarage.java" afterDir="false" />
-    </list>
+    <list default="true" id="f93c4625-a98e-4613-98ac-a6e55cfbb44f" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +43,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/model/Garage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2065">
+            <state relative-caret-position="560">
               <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -154,7 +148,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="833" />
@@ -269,15 +263,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561965192533</updated>
-      <workItem from="1561965194235" duration="11860000" />
+      <workItem from="1561965194235" duration="11869000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11860000" />
+    <option name="totallyTimeSpent" value="11869000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" />
@@ -408,7 +402,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/model/Garage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2065">
+        <state relative-caret-position="560">
           <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
