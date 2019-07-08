@@ -5,6 +5,7 @@ import dto.Car;
 import comparators.*;
 
 import java.util.HashSet;
+import java.util.LinkedHashSet;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -15,10 +16,12 @@ public class Streams2App {
 
 
 
-        HashSet<Car> car = Car.createStream(20)
-                .collect(Collectors.toCollection(HashSet::new));
+        LinkedHashSet<String> hsc = Car.createStream(20)
+                .map(Car::getModel)
+                .sorted()
+                .collect(Collectors.toCollection(LinkedHashSet::new));
 
 
-        System.out.println(car);
+        System.out.println(hsc);
     }
 }
