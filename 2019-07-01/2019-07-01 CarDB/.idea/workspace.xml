@@ -2,30 +2,34 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="2019-07-01 CarDB:jar" />
+      <artifact name="CarDB:jar" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd7787ce-be2e-4b49-94ac-7988059f7024" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../2019-06-12/2019-06-12 RandomCar/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../2019-06-12/2019-06-12 RandomCar/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../2019-06-12/2019-06-12 RandomCar/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../2019-06-12/2019-06-12 RandomCar/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../2019-06-12/2019-06-12 RandomCar/2019-06-12 RandomCar.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/2019_07_01_CarDB_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2019-07-01 CarDB.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../2019-07-04/Project1/Project1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../2019-07-07/Reducers/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../2019-07-07/Reducers/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../2019-07-07/Reducers/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../2019-07-07/Reducers/Reducers.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../2019-06-27/2019-06-27 MyTreeSet/src/application/MyTreeSetApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../2019-06-27/2019-06-27 MyTreeSet/src/application/MyTreeSetApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../2019-06-27/2019-06-27 MyTreeSet/src/model/MyTreeSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../2019-06-27/2019-06-27 MyTreeSet/src/model/MyTreeSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../2019-06-27/2019-06-27 MyTreeSet/src/model/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../2019-06-27/2019-06-27 MyTreeSet/src/model/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CarDB/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CarDB/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/CarDB_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2019-07-08/Streams2/src/application/Streams2App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2019-07-08/Task1/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2019-07-08/Task1/Task1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Jars/CarDB/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/2019_07_01_CarDB_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-07-01 CarDB.iml" beforeDir="false" afterPath="$PROJECT_DIR$/2019-07-01 CarDB.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/CarDBApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/CarDBApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dto/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dto/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Garage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Garage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/IGarage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/IGarage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2019-07-07/ProjectTestStreamAPI/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../2019-07-07/ProjectTestStreamAPI/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2019-07-07/ProjectTestStreamAPI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../2019-07-07/ProjectTestStreamAPI/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2019-07-07/Reducers/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../2019-07-07/Reducers/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2019-07-07/Reducers/bin/application/ReducersApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../2019-07-07/Reducers/bin/application/ReducersApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2019-07-07/Reducers/bin/model/Reducers.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../2019-07-07/Reducers/bin/model/Reducers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2019-07-07/Reducers/src/application/ReducersApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../2019-07-07/Reducers/src/application/ReducersApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2019-07-07/Reducers/src/model/Reducers.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../2019-07-07/Reducers/src/model/Reducers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Jars/2019-06-12 Random.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Jars/2019-07-01 CarDB.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Jars/cardb.jar" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/bin/" />
@@ -36,16 +40,44 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/dto/Car.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+            <state relative-caret-position="346">
+              <caret line="143" lean-forward="true" selection-start-line="143" selection-end-line="143" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/Garage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4340">
+              <caret line="140" column="5" selection-start-line="140" selection-start-column="5" selection-end-line="140" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3420#3421#0" expanded="true" />
+                <element signature="e#3438#3439#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/IGarage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="875">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -53,8 +85,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/application/CarDBApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="35">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="346">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -70,6 +102,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/model/IGarage.java" />
+        <option value="$PROJECT_DIR$/src/model/Garage.java" />
+        <option value="$PROJECT_DIR$/src/application/CarDBApp.java" />
         <option value="$PROJECT_DIR$/src/dto/Car.java" />
       </list>
     </option>
@@ -142,10 +177,10 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../2019-07-07/Reducers" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Jars/CarDB" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -193,48 +228,72 @@
       <option name="presentableId" value="Default" />
       <updated>1562483586032</updated>
       <workItem from="1562483587348" duration="723000" />
+      <workItem from="1562570336038" duration="1868000" />
+      <workItem from="1562572383982" duration="1602000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="723000" />
+    <option name="totallyTimeSpent" value="4193000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25751072" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" visible="true" weight="0.32914287" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32914287" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32914287" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/model/Garage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4340">
+          <caret line="140" column="5" selection-start-line="140" selection-start-column="5" selection-end-line="140" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3420#3421#0" expanded="true" />
+            <element signature="e#3438#3439#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/IGarage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="875">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/application/CarDBApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="346">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -243,8 +302,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dto/Car.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        <state relative-caret-position="346">
+          <caret line="143" lean-forward="true" selection-start-line="143" selection-end-line="143" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -254,11 +316,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>2019-07-01 CarDB:jar</last-edited>
+          <last-edited>CarDB:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

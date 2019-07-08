@@ -22,7 +22,45 @@ public class Reducers {
 		return finalProcessingFunction.apply(accumulator);
 		
 	}
-	
+
+	public static <R, T, A> R reduce(
+			Iterable<T> source,
+			Supplier<A> accumulatorFactory,
+			BiConsumer<A,T> mergeWithAccumulatorFunction,
+			Function<A,R> finalProcessingFunction
+	) {
+
+		A accumulator = accumulatorFactory.get();
+		for(T t : source) mergeWithAccumulatorFunction.accept(accumulator,t);
+		return finalProcessingFunction.apply(accumulator);
+
+	}
+
+	// mutable accumulators
+
+	public static <T, U, A> A reduce(
+			Iterable<T> source,
+			Function<T,U> dataTransformFunction,
+			Supplier<A> accumulatorFactory,
+			BiConsumer<A,U> mergeWithAccumulatorFunction
+	) {
+
+		A accumulator = accumulatorFactory.get();
+		for(T t : source) mergeWithAccumulatorFunction.accept(accumulator,dataTransformFunction.apply(t));
+		return accumulator;
+
+	}
+
+	public static <T, A> A reduce(
+			Iterable<T> source,
+			Supplier<A> accumulatorFactory,
+			BiConsumer<A,T> mergeWithAccumulatorFunction
+	) {
+		A accumulator = accumulatorFactory.get();
+		for(T t : source) mergeWithAccumulatorFunction.accept(accumulator,t);
+		return accumulator;
+	}
+
 	// mutable accumulators
 	
 	public static <R, T, U, A> R reduce(

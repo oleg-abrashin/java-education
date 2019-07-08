@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.TreeMap;
 import java.util.TreeSet;
+import java.util.stream.Stream;
 
 import dto.Car;
 
@@ -132,6 +133,11 @@ public class Garage implements IGarage{
 		ArrayList<Car> result = new ArrayList<>();
 		for(TreeSet<Car> tsc : engineTM.values()) result.addAll(tsc);
 		return result;
+	}
+
+	@Override
+	public Stream<Car> toStream() {
+		return null;
 	}
 
 }

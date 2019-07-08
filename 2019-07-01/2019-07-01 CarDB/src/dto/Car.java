@@ -1,6 +1,7 @@
 package dto;
 
 import java.util.Comparator;
+import java.util.stream.Stream;
 
 import comparators.EngineCarComparator;
 import comparators.ModelCarComparator;
@@ -141,6 +142,10 @@ public class Car implements Comparable<Car>{
 		return result;
 	}
 
+
+    public static Stream<Car> createStream(int numCars) {
+        return Stream.generate(()->Car.randomCar()).limit(numCars);
+    }
 	
 	
 
