@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c786902-9c24-43da-acdc-116ca80e545a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../StreamToMap/src/application/StreamToMapApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StreamToMap/src/printcar/CarForPrint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Streams2/application/Streams2App.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Streams2/application/Streams2App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/Streams2App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/Streams2App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CustomStreamCollector/src/application/CustomCollectorApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW/src/application/CarForPrint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW/src/application/HWApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StreamToMap/src/application/StreamToMapApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../StreamToMap/src/application/StreamToMapApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/CarForPrint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/CarForPrint.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/application/Streams2App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="21" column="70" selection-start-line="21" selection-start-column="70" selection-end-line="21" selection-end-column="70" />
+            <state relative-caret-position="241">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -32,11 +32,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/application/CarForPrint.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+            <state relative-caret-position="70">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -56,8 +56,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/application/CarForPrint.java" />
         <option value="$PROJECT_DIR$/src/application/Streams2App.java" />
+        <option value="$PROJECT_DIR$/src/application/CarForPrint.java" />
       </list>
     </option>
   </component>
@@ -76,7 +76,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -155,6 +154,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -226,17 +226,18 @@
       <workItem from="1562569426112" duration="2516000" />
       <workItem from="1562572288170" duration="4881000" />
       <workItem from="1562580217294" duration="608000" />
+      <workItem from="1562586726169" duration="3429000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8005000" />
+    <option name="totallyTimeSpent" value="11434000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25751072" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26126608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -327,20 +328,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/Streams2App.java">
+    <entry file="file://$PROJECT_DIR$/src/application/CarForPrint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="21" column="70" selection-start-line="21" selection-start-column="70" selection-end-line="21" selection-end-column="70" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="70">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/CarForPrint.java">
+    <entry file="file://$PROJECT_DIR$/src/application/Streams2App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        <state relative-caret-position="241">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

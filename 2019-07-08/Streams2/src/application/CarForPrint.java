@@ -1,5 +1,4 @@
 package application;
-
 import dto.Car;
 
 public class CarForPrint {

@@ -5,6 +5,7 @@ import printcar.CarForPrint;
 
 import java.util.ArrayList;
 import java.util.Map;
+import java.util.TreeMap;
 import java.util.stream.Collectors;
 
 public class StreamToMapApp {
@@ -15,17 +16,22 @@ public class StreamToMapApp {
                         .collect(Collectors.toMap(
                                 // Key mapper
                                 c -> c.getModel(),
+
                                 // Value mapper
                                 c -> {
                                     ArrayList<CarForPrint> al = new ArrayList<>();
                                     al.add(new CarForPrint(c));
                                     return al;
                                 },
+
                                 // Merging function
                                 (a, b) -> {
                                     a.addAll(b);
                                     return a;
-                                }
+                                },
+
+                                TreeMap:: new
+
                                 )
                         );
         for(String i:map.keySet()){
